@@ -38,16 +38,13 @@
   width: 400px;
   height: 450px;
   margin: auto;
-  left: 33%;
+  left: 35%;
   top: 15%;
 }
 
 .light {
-  position: 'absolute';
-  left: '32%';
   filter: brightness(150%);
-  filter: drop-shadow(10px 10px 5px #000000);
-  
+  filter: drop-shadow(10px 10px 5px #000);
 }
 
 .about-image1 {
@@ -61,7 +58,7 @@
   height: 30%;
 }
 
-/*.light:hover {
+/* .light:hover {
   animation-name: spin;
   animation-duration: 5s;
 }
@@ -78,4 +75,4 @@
   100% {
     transform: rotate(0deg);
   }
-}*/
+} */
