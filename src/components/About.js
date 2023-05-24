@@ -17,7 +17,16 @@ const About = () => (
               حلول متكاملة تلبي جميع شرائح قاعدة عملائنا المتنوعة. من خلال توفير الوصول إلى أحدث
               وأرقى المركبات ، نسعى جاهدين لتلبية رغبات واحتياجات كل عميل بأقصى درجات الرضا.
             </p>
-            <p />
+            <br />
+            <br />
+            <p>
+              Our company is committed to providing the most efficient and superior means of renting
+              various types of cars and luxury vehicles. With a focus on innovation, we have
+              established a distinctive and practical environment designed to offer integrated
+              solutions that cater to all segments of our diverse customer base. By offering access
+              to the latest and finest vehicles, we endeavor to meet the desires and needs of every
+              customer with the utmost satisfaction.
+            </p>
           </div>
         </div>
       </div>
