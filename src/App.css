@@ -47,8 +47,17 @@
   filter: drop-shadow(10px 10px 5px #000);
 }
 
+.about_container {
+  position: absolute;
+  margin: -100px auto auto auto;
+  height: auto;
+  color: #fff;
+  padding: 50px 20px;
+  background-color: #2a5fac;
+}
+
 .about-image1 {
-  margin: -4px auto auto auto;
+  margin: -3px auto auto auto;
   width: 100%;
   height: 30%;
 }
@@ -56,6 +65,16 @@
 .about-image1 > img {
   width: 100%;
   height: 30%;
+}
+
+.about_content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about_content > div {
+  width: 50%;
+  height: 100%;
 }
 
 /* .light:hover {
