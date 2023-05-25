@@ -8,27 +8,30 @@ const About = () => (
       <div className="about_container">
         <div className="about_content">
           <div className="content_1">
-            <h2>من نحن</h2>
+            <h2 className="about-title">من نحن</h2>
           </div>
           <div className="content_2">
-            <p>
+            <p className="desc_ar">
               تلتزم شركتنا بتوفير أكثر الوسائل كفاءة وتفوقًا في تأجير أنواع مختلفة من السيارات
               والمركبات الفاخرة. مع التركيز على الابتكار ، أنشأنا بيئة مميزة وعملية مصممة لتقديم
               حلول متكاملة تلبي جميع شرائح قاعدة عملائنا المتنوعة. من خلال توفير الوصول إلى أحدث
-              وأرقى المركبات ، نسعى جاهدين لتلبية رغبات واحتياجات كل عميل بأقصى درجات الرضا.
+              وأرقى المركبات ، نسعى جاهدين لتلبية رغبات واحتياجات كل عميل بأقصى درجات الرضا
             </p>
-            <br />
-            <br />
-            <p>
+            <p className="desc_en">
               Our company is committed to providing the most efficient and superior means of renting
               various types of cars and luxury vehicles. With a focus on innovation, we have
               established a distinctive and practical environment designed to offer integrated
               solutions that cater to all segments of our diverse customer base. By offering access
               to the latest and finest vehicles, we endeavor to meet the desires and needs of every
-              customer with the utmost satisfaction.
+              customer with the utmost satisfaction
             </p>
           </div>
         </div>
+        <img
+          className="about-arraows"
+          src="./Images/arrows.png"
+          alt="arrows"
+        />
       </div>
     </div>
   </div>
