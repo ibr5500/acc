@@ -5,7 +5,7 @@ const Goals = () => (
       <div className="line">..</div>
       <div className="goals-content">
         <p className="desc_en">
-          our goal is to revolutionize the world of luxury leasing by fostering an environment of
+          Our goal is to revolutionize the world of luxury leasing by fostering an environment of
           creativity and innovation, utilizing obstacles and challenges as opportunities for growth,
           and establishing a collaborative and practical community among all stakeholders in the
           industry. We aim to be the industry leader in performance, setting new standards in luxury

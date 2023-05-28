@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   color: #fff;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1em;
 }
 
 .App {
@@ -87,7 +89,6 @@
 }
 
 .title {
-  font-family: 'Readex Pro', sans-serif;
   font-size: 7rem;
 }
 
@@ -110,8 +111,6 @@
 
 .content_2 {
   width: 55%;
-  font-family: 'Readex Pro', sans-serif;
-  font-size: 1em;
   line-height: 150%;
   margin: 0 0 75px 0;
 }
@@ -122,8 +121,6 @@
 }
 
 .desc_ar {
-  font-family: 'Readex Pro', sans-serif;
-  font-size: 1em;
   text-align: right;
   width: -moz-fit-content;
   width: fit-content;
@@ -131,8 +128,6 @@
 }
 
 .desc_en {
-  font-family: 'Readex Pro', sans-serif;
-  font-size: 1em;
   text-align: left;
   width: -moz-fit-content;
   width: fit-content;
@@ -141,12 +136,10 @@
 
 .about-arraows {
   position: absolute;
-  width: 200px;
+  width: 15%;
   bottom: 0%;
-  left: -6%;
+  left: -5%;
   opacity: 0.25;
-
-  /* filter: brightness(300%); */
   filter: drop-shadow(8px 0 4px);
 }
 
@@ -173,7 +166,7 @@
   opacity: 0.2;
   width: 25%;
   height: auto;
-  filter: drop-shadow(8px 8px 0 #2a5fac);
+  filter: drop-shadow(4px 4px 0 #2a5fac);
 }
 
 .goals-footer {
