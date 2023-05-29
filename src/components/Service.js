@@ -1,5 +1,10 @@
 const Service = () => (
   <div className="service-continer service-bg-image">
+    <img
+      className="service-img"
+      src="./Images/se-img.png"
+      alt="#"
+    />
     <div className="service-content">
       <div className="header">
         <h2 className="title">خدماتنا</h2>
