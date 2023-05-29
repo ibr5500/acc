@@ -46,6 +46,7 @@ const Service = () => (
               <li>تنظيم المؤتمرات الحكومية.</li>
               <li>تخطيط وتنسيق المناسبات والتجمعات الهامة.</li>
             </ul>
+            <br />
             <ul className="desc_en rent-service-en">
               <li>Organizing government conferences.</li>
               <li>Planning and coordinating significant occasions and gatherings.</li>

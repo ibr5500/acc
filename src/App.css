@@ -231,7 +231,6 @@
 
 .value-bg-image {
   margin: 5px 0 0 0;
-  
   background: url('../public/Images/value-bg.jpg') no-repeat;
   background-size: 70%;
   background-position: right;
@@ -303,7 +302,7 @@
 .service-content {
   position: relative;
   width: 90%;
-  margin: 50px auto;  
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
 }
@@ -340,13 +339,13 @@
 }
 
 .service_ar {
-  font-family: 1.1em;
+  font-size: 1.1em;
   padding: 0 0 2px 0;
   text-align: center;
 }
 
 .service_en {
-  font-family: 1.1em;
+  font-size: 1.1em;
   color: #f2b544;
   padding: 0 0 10px 0;
 }
