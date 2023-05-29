@@ -44,7 +44,7 @@
   width: 400px;
   height: 450px;
   margin: auto;
-  left: 35%;
+  left: 33%;
   top: 15%;
 }
 
@@ -124,6 +124,7 @@
   width: -moz-fit-content;
   width: fit-content;
   line-height: 1.5em;
+  direction: rtl;
 }
 
 .desc_en {
@@ -222,13 +223,15 @@
 
 .value-container {
   width: 100%;
+  height: 110vh;
   display: flex;
   flex-direction: column;
+  padding: 0 0 20px 0;
 }
 
 .value-bg-image {
   margin: 5px 0 0 0;
-  height: 110vh;
+  
   background: url('../public/Images/value-bg.jpg') no-repeat;
   background-size: 70%;
   background-position: right;
@@ -258,7 +261,7 @@
 .value-content {
   position: relative;
   width: 40%;
-  padding: 40px;
+  padding: 20px 40px;
   margin: auto 0;
 }
 
@@ -272,6 +275,89 @@
   gap: 20px;
   width: 85%;
   margin: 0 auto;
+}
+
+.service-continer {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.service-bg-image {
+  background: url('../public/Images/service-bg.jpg') no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.service-bg-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to left, rgba(71, 71, 72, 1), rgba(36, 36, 36, 0.1) 60%);
+}
+
+.service-content {
+  position: relative;
+  width: 90%;
+  margin: 50px auto;  
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin: auto 0;
+}
+
+.header > .title {
+  filter: drop-shadow(5px 5px 20px #204884);
+}
+
+.service-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.services-1 {
+  width: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.services-2 {
+  width: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.service_ar {
+  font-family: 1.1em;
+  padding: 0 0 2px 0;
+  text-align: center;
+}
+
+.service_en {
+  font-family: 1.1em;
+  color: #f2b544;
+  padding: 0 0 10px 0;
+}
+
+.rent-service-ar > li {
+  font-size: 0.8rem;
+}
+
+.rent-service-en > li {
+  color: #f2b544;
+  padding: 0;
+  font-size: 0.8rem;
+  width: 93%;
 }
 
 /* .light:hover {

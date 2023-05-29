@@ -21,7 +21,7 @@ const About = () => (
               نلتزم بتوفير أكثر الوسائل كفاءة وتفوقًا في تأجير أنواع مختلفة من السيارات والمركبات
               الفاخرة. مع التركيز على الابتكار ، أنشأنا بيئة مميزة وعملية مصممة لتقديم حلول متكاملة
               تلبي جميع شرائح قاعدة عملائنا المتنوعة. من خلال توفير الوصول إلى أحدث وأجود المركبات ،
-              نسعى جاهدين لتلبية رغبات واحتياجات كل عميل بأقصى درجات الرضا
+              نسعى جاهدين لتلبية رغبات واحتياجات كل عميل بأقصى درجات الرضا.
             </p>
             <p className="desc_en">
               We are committed to providing the most efficient and superior means of renting various
@@ -29,7 +29,7 @@ const About = () => (
               distinctive and practical environment designed to offer integrated solutions that
               cater to all segments of our diverse customer base. By offering access to the latest
               and finest vehicles, we endeavor to meet the desires and needs of every customer with
-              the utmost satisfaction
+              the utmost satisfaction.
             </p>
             <img
               className="about-arraows-hr"

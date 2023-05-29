@@ -4,6 +4,7 @@ import About from './components/About';
 import Goals from './components/Goals';
 import Mission from './components/Mission';
 import Value from './components/Value';
+import Service from './components/Service';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Goals />
       <Mission />
       <Value />
+      <Service />
     </div>
   );
 }
