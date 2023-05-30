@@ -10,7 +10,7 @@ const Contact = () => (
     <div className="contact-content">
       <div className="contact-items">
         <div className="contact-header">
-          <h3 className="contact-title">للتواصل معنا</h3>
+          <h3 className="contact-title">تواصل معنا</h3>
           <div>...</div>
         </div>
         <div className="contact-body">

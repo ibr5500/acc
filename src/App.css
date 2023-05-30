@@ -298,7 +298,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(to left, rgba(71, 71, 72, 1), rgba(36, 36, 36, 0.1) 60%);
+  background: linear-gradient(to left, rgba(71, 71, 72, 1), rgba(36, 36, 36, 0.5) 60%);
 }
 
 .service-img {
@@ -316,8 +316,6 @@
   margin: 50px auto;
   display: flex;
   flex-direction: column;
-  background: rgba(27, 27, 27, 0.3);
-  padding: 20px 0;
 }
 
 .header {
@@ -339,7 +337,8 @@
   gap: 30px;
 }
 
-.services-1, .services-2{
+.services-1,
+.services-2 {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -356,6 +355,7 @@
   color: #f2b544;
   padding: 0 0 6px 0;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .rent-service-ar > li {
@@ -364,6 +364,7 @@
 
 .rent-service-en > li {
   color: #f2b544;
+
   /* padding: 0; */
   font-size: 0.9rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -416,7 +417,7 @@
   display: flex;
   flex-direction: row-reverse;
   width: 80%;
-  margin:10px auto;
+  margin: 10px auto;
   padding: 20px;
   border-radius: 20px;
   background-color: rgba(29, 73, 1, 0.3);
@@ -432,7 +433,7 @@
 .contact-img-bg {
   position: absolute;
   width: 100%;
-  bottom: 0%;
+  bottom: 1%;
   left: 0%;
   filter: drop-shadow(-30px -30px 30px #000);
 }
@@ -445,10 +446,7 @@
 .contact-items {
   display: flex;
   flex-direction: row-reverse;
-  /* width: 70%; */
   padding: 150px 0 0 0;
-  
-  /* gap: 50px; */
   justify-content: space-between;
 }
 
@@ -456,7 +454,7 @@
   font-size: 3.5em;
 }
 
-.icons {
+.icons-container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -466,25 +464,35 @@
   border-radius: 20px;
   padding: 15px;
   gap: 15px;
+  filter: drop-shadow(-2px -5px 5px #000);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.icons > div > a {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  gap: 5px;  
-  align-items: center;
+.icons {
+  width: auto;
+  text-align: center;
+
+  /* filter: drop-shadow(10px 10px 5px #000); */
 }
 
 .icon {
+  cursor: pointer;
+  text-align: left;
+}
+
+.icon > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.icon-logo {
   width: auto;
   padding: 5px;
   border: 2px solid #fff;
   border-radius: 50%;
-}
-
-.icons > div > a:hover {
-  font-size: 1.2rem;
 }
 
 
