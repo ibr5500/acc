@@ -23,7 +23,7 @@ const Service = () => (
             <li>نقديم خدمات استقبال وتوديع احترافية ، مما يضمن تجربة دافئة وترحابة.</li>
             <li>إستلام وإنزال المركبات مباشرة من موقع العميل.</li>
           </ul>
-          <br />
+          {/* <br /> */}
           <ul className="desc_en rent-service-en">
             <li>
               Offer premium vehicle rental services with flexible long and short-term contracts.

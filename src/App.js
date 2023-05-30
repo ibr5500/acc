@@ -5,6 +5,8 @@ import Goals from './components/Goals';
 import Mission from './components/Mission';
 import Value from './components/Value';
 import Service from './components/Service';
+import Vision from './components/Vision';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Mission />
       <Value />
       <Service />
+      <Vision />
+      <Contact />
     </div>
   );
 }
