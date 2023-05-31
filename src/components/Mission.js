@@ -4,7 +4,7 @@ const Mission = () => (
       <div className="mission-content">
         <div className="mission-items">
           <h2 className="title">مهمتنا</h2>
-          <div>...</div>
+          <div className="mission-line" />
           <p className="desc_ar">
             مهمتنا هي ليس فقط دفع النمو والتميز في صناعة التأجير ولكن أيضًا أن نكون الواجهة الأولى
             للإيجارات الفاخرة ، وتقديم خدمة لا مثيل لها وعروض مبتكرة. من خلال تفانينا الدؤوب في

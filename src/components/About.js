@@ -9,7 +9,6 @@ const About = () => (
         <div className="about_content">
           <div className="content_1">
             <h2 className="title">من نحن</h2>
-            <div className="line">..</div>
             <img
               className="about-01"
               src="./Images/01.png"

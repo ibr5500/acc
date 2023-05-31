@@ -1,5 +1,6 @@
-import { FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 const Icons = () => (
   <div className="icons-container">
@@ -10,7 +11,7 @@ const Icons = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <FaWhatsapp className="icon-logo" />
+        <IoLogoWhatsapp className="icon-logo whatsapp-logo" />
         <span>+966593084741</span>
       </a>
     </div>
@@ -21,8 +22,8 @@ const Icons = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <AiOutlineMail className="icon-logo" />
-        <span>info@tasaraa.com</span>
+        <MdEmail className="icon-logo email-logo" />
+        <span style={{ fontFamily: 'sans-serif' }}>info@tasaraa.com</span>
       </a>
     </div>
     <div className="icon map">
@@ -31,7 +32,7 @@ const Icons = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <FaMapMarkerAlt className="icon-logo" />
+        <FaMapMarkerAlt className="icon-logo map-logo" />
         <span>جدة, حي المحمدية, شارع زيد الأنصاري</span>
       </a>
     </div>
