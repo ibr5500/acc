@@ -1,8 +1,10 @@
 const Goals = () => (
   <div>
     <div className="goals-container">
-      <h2 className="title">أهدافنا</h2>
-      <div className="goal-line" />
+      <div className="goals-header">
+        <h2 className="title">أهدافنا</h2>
+        <div className="goal-line" />
+      </div>
       <div className="goals-content">
         <p className="desc_en">
           Our goal is to revolutionize the world of luxury leasing by fostering an environment of
