@@ -181,7 +181,7 @@
   background: #2a5fac;
   border-radius: 10px;
   transform: translate(-5%, 30%);
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .goal-line::before {
@@ -236,9 +236,9 @@
     background: #474748;
     border-radius: 10px;
     transform: translate(0%, 50%);
-    margin: 0 auto;  
+    margin: 0 auto;
   }
-  
+
   .about-line::before {
     content: "";
     position: absolute;
@@ -274,13 +274,12 @@
 
   .about-arraows {
     width: 35%;
-    left: -2;
+    left: -2%;
     filter: none;
   }
 }
 
 @media screen and (max-width: 580px) {
-
   .about_content {
     padding: 10px 0;
   }
@@ -297,7 +296,7 @@
   }
 
   .about-line {
-    margin: 10px auto;  
+    margin: 10px auto;
   }
 }
 
@@ -768,4 +767,3 @@
     left: 0;
   }
 }
-
