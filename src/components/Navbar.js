@@ -1,6 +1,5 @@
-import React from 'react';
-// import { NavLink } from 'react-router-dom';
-// import { FaBars } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa';
 
 function Navbar() {
   return (

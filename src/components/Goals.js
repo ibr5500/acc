@@ -25,12 +25,13 @@ const Goals = () => (
         src="./Images/goals.png"
         alt="goals"
       />
+      <div className="goals-footer">
+        <img
+          src="./Images/goals-footer.jpg"
+          alt="goals footer"
+        />
+      </div>
     </div>
-    <img
-      className="goals-footer"
-      src="./Images/goals-footer.jpg"
-      alt="goals footer"
-    />
   </div>
 );
 

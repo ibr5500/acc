@@ -10,7 +10,7 @@
 .App {
   text-align: center;
   width: auto;
-  height: auto;
+  height: 100%;
   background: #1b1b1b;
   min-height: 100vh;
 }
@@ -156,18 +156,22 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
   width: auto;
-  height: auto;
-  padding: 60px 0;
+  height: 100%;
   color: #fff;
+  padding: 25px 0 0 0;
 }
 
 .goals-content {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  width: 65%;
-  margin: 30px auto;
+  gap: 15px;
+  width: 75%;
+  height: 100%;
+  margin: 55px auto 10px auto;
+  font-size: 1rem;
 }
 
 .goals-header {
@@ -198,173 +202,60 @@
 
 .goals-img {
   position: absolute;
-  top: 5%;
-  left: -5%;
+  top: 2%;
+  left: 0%;
   opacity: 0.2;
-  width: 20%;
+  max-width: 15%;
   height: auto;
   filter: drop-shadow(4px 4px 0 #2a5fac);
 }
 
 .goals-footer {
   width: 100%;
-  height: auto;
+  height: 30%;
+  margin: 60px 0 0 0;
 }
 
-@media screen and (max-width: 780px) {
-  .about_content {
-    flex-direction: column;
-    gap: 15px;
-    height: auto;
-    width: auto;
-    margin: auto;
-    padding: 2px 0;
-  }
-
-  .content_1 {
-    width: auto;
-  }
-
-  .title {
-    font-size: 3rem;
-  }
-
-  .about-line {
-    display: block;
-    width: 20%;
-    height: 10px;
-    background: #474748;
-    border-radius: 10px;
-    transform: translate(0%, 50%);
-    margin: 0 auto;
-  }
-
-  .about-line::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 33%;
-    height: 100%;
-    background: #fff;
-    border-radius: 10px;
-    animation: animate 9s linear infinite;
-  }
-
-  .about-01 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 0 5px;
-    width: 20%;
-    opacity: 0.8;
-  }
-
-  .about-arraows-hr {
-    display: none;
-  }
-
-  .content_2 {
-    width: 50%;
-    margin: 0 auto;
-    gap: 10px;
-    font-size: 0.85rem;
-    padding: 5px 0 15px 0;
-  }
-
-  .about-arraows {
-    width: 35%;
-    left: -2%;
-    filter: none;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .about_content {
-    padding: 10px 0;
-  }
-
-  .title {
-    font-size: 2.5rem;
-  }
-
-  .content_2 {
-    font-size: 0.8rem;
-    width: 60%;
-    padding: 20px 0;
-    gap: 10px;
-  }
-
-  .about-line {
-    margin: 10px auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .about_content {
-    padding: 30px 0;
-  }
-
-  .title {
-    font-size: 2.5rem;
-  }
-
-  .content_2 {
-    font-size: 0.7rem;
-    width: 70%;
-    margin: 10px auto;
-  }
+.goals-footer > img {
+  width: 100%;
 }
 
 .mission-container {
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
   color: #fff;
+  padding: 5% 0;
 }
 
 .mission-image {
-  width: auto;
+  width: 100%;
+  height: auto;
   background: url('../public/Images/mission-bg.jpg') no-repeat;
   background-size: cover;
-  position: relative;
-  padding: 15px 0;
-}
-
-.mission-image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(to right, rgba(27, 27, 27, 0.1), rgba(27, 27, 27, 0.8) 50%);
+  object-fit: fill;
+  opacity: 0.9;
 }
 
 .mission-content {
-  position: relative;
-  left: 32%;
+  display: flex;
+  margin: 0 auto;
   width: 65%;
-  padding: 35px 5px;
+  padding: 45px 5px;
 }
 
 .mission-items {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .mission-line {
-  width: 25%;
+  width: 15%;
   height: 1.5%;
   background: #fff;
   position: absolute;
-  top: 35%;
-  left: 25%;
+  left: 35%;
   border-radius: 10px;
-  transform: translate(0%, 50%);
+  transform: translate(20%, 50%);
 }
 
 .mission-line::before {
@@ -377,15 +268,6 @@
   background: #2a5fac;
   border-radius: 10px;
   animation: animate 9s linear infinite;
-}
-
-.mission-arrow {
-  position: absolute;
-  width: 22%;
-  transform: rotate(-90deg);
-  top: 50%;
-  right: 27%;
-  opacity: 0.45;
 }
 
 .value-container {
@@ -476,7 +358,7 @@
 
 .service-bg-image {
   background: url('../public/Images/service-bg.jpg') no-repeat;
-  background-size: 100%;
+  background-size: cover;
   position: relative;
 }
 
@@ -558,6 +440,7 @@
   width: auto;
   gap: 9px;
   padding: 5px 0;
+  margin: 0 auto;
 }
 
 .service_ar {
@@ -636,6 +519,273 @@
   background-color: rgba(29, 73, 1, 0.3);
 }
 
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 0.85rem;
+  }
+
+  .about_content {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  .content_1 {
+    width: auto;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .about-line {
+    display: block;
+    width: 20%;
+    height: 10px;
+    background: #474748;
+    border-radius: 10px;
+    transform: translate(0%, 50%);
+    margin: 0 auto;
+  }
+
+  .about-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background:#fff;
+    border-radius: 10px;
+    animation: animate 9s linear infinite;
+  }
+
+  .about-01 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 5px;
+    width: 20%;
+    opacity: 0.8;
+  }
+
+  .about-arraows-hr {
+    display: none;
+  }
+
+  .content_2 {
+    width: 50%;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 5px 0 15px 0;
+  }
+
+  .about-arraows {
+    width: 35%;
+    left: -2%;
+    filter: none;
+  }
+
+  .goals-header > h2 {
+    font-size: 3.5rem !important;
+  }
+
+  .goals-content {
+    margin: 45px auto 0 auto;
+  }
+
+  .goals-content > p {
+    font-size: 1.145rem !important;
+  }
+
+  .goals-footer {
+    margin: 55px 0 0 0;
+  }
+
+  .mission-content {
+    width: 65%;
+    padding: 35px 5px;
+    margin: 0 auto;
+  }
+
+  .val-line {
+    width: 15% !important;
+    top: 16% !important;
+    left: 35% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 0.8rem;
+  }
+
+  .about_content {
+    padding: 10px 0;
+  }
+
+  .title {
+    font-size: 2.6rem;
+  }
+
+  .content_2 {
+    font-size: 0.8rem;
+    width: 60%;
+    padding: 20px 0;
+    gap: 10px;
+  }
+
+  .about-line {
+    margin: 10px auto;
+  }
+
+  .goals-content {
+    flex-direction: column-reverse;
+    font-size: 0.9rem;
+    width: 70%;
+    margin: 45px auto 0 auto;
+  }
+
+  .goals-footer {
+    margin: 30px 0 0 0;
+  }
+
+  .val-line {
+    width: 20% !important;
+    top: 13% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about_content {
+    padding: 30px 0;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .content_2 {
+    font-size: 0.7rem;
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .goals-content {
+    font-size: 0.88rem;
+    flex-direction: column-reverse;
+  }
+
+  .goals-img {
+    height: 80%;
+  }
+
+  .value-bg-image {
+    background-size: cover !important;
+  }
+
+  .value-content {
+    width: 60% !important;
+    margin: 0 auto !important;
+  }
+
+  .value-items {
+    width: auto !important;
+  }
+
+  .val-line {
+    top: 20% !important;
+  }
+
+  .rent-service-en, .service_en {
+    display: none;
+  }
+  
+  .service-content {
+    padding: 0;
+    margin: 15px auto
+  }
+
+  .service-items {
+    flex-direction: column-reverse;
+    margin: 15px auto;
+    gap: 0;
+  }
+
+  .line-service {
+    bottom: -5%;
+  }
+
+  .rent-service-ar {
+    padding: 5px 0 0 0;
+    color: #f2b544;
+  }
+
+  .vision-content {
+    width: auto;
+  }
+
+  .vision-desc {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  
+  .vision-img {
+    margin: 0 auto;
+  }
+
+  .contact-items {
+    flex-direction: column !important;
+    padding: 90px 0 50px 0 !important;
+  }
+
+  .contact-img-bg {
+    margin: 0 0 50px 0;
+  }
+
+  .line {
+    bottom: -20%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .goals-content > p {
+    font-size: 1rem !important;
+  }
+
+  .val-line {
+    top: 18% !important;
+  }
+
+  .value-content {
+    width: 70% !important;
+  }
+
+  .vision-desc {
+    margin: 20px auto;
+  }
+
+  .vision-img {
+    width: 80%;
+    padding: 10px auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .goals-content > p {
+    font-size: 0.88rem !important;
+  }
+
+  .val-line {
+    top: 14% !important;
+  }
+}
+
 .contact-contaner {
   position: relative;
   display: flex;
@@ -662,7 +812,7 @@
 .contact-items {
   display: flex;
   flex-direction: row-reverse;
-  padding: 150px 0 0 0;
+  padding: 120px 0 25px 0;
   justify-content: space-between;
   width: auto;
   margin: 0 auto;

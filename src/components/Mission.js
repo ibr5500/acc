@@ -1,10 +1,12 @@
 const Mission = () => (
   <div className="mission-container mission-image">
     <div className="mission-content">
-      <div className="mission-content">
+      <div className="mission">
         <div className="mission-items">
-          <h2 className="title">مهمتنا</h2>
-          <div className="mission-line" />
+          <h2 className="title">
+            مهمتنا
+            <div className="mission-line" />
+          </h2>
           <p className="desc_ar">
             مهمتنا هي ليس فقط دفع النمو والتميز في صناعة التأجير ولكن أيضًا أن نكون الواجهة الأولى
             للإيجارات الفاخرة ، وتقديم خدمة لا مثيل لها وعروض مبتكرة. من خلال تفانينا الدؤوب في
@@ -19,11 +21,6 @@ const Mission = () => (
             industry to follow suit. Join us on our journey to shape the future of luxury rentals.
           </p>
         </div>
-        <img
-          className="mission-arrow"
-          src="./Images/arrows.png"
-          alt="#"
-        />
       </div>
     </div>
   </div>
