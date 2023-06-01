@@ -557,7 +557,7 @@
     left: 0;
     width: 40%;
     height: 100%;
-    background:#fff;
+    background: #fff;
     border-radius: 10px;
     animation: animate 9s linear infinite;
   }
@@ -699,13 +699,14 @@
     top: 20% !important;
   }
 
-  .rent-service-en, .service_en {
+  .rent-service-en,
+  .service_en {
     display: none;
   }
-  
+
   .service-content {
     padding: 0;
-    margin: 15px auto
+    margin: 15px auto;
   }
 
   .service-items {
@@ -732,7 +733,7 @@
     margin: 0 auto;
     gap: 10px;
   }
-  
+
   .vision-img {
     margin: 0 auto;
   }
@@ -771,7 +772,6 @@
 
   .vision-img {
     width: 80%;
-    padding: 10px auto;
     margin: 0 auto;
   }
 }
