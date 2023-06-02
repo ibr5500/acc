@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        {/* <Icon /> */}
+        <Icon />
         <About />
         <Service />
         <Goals />
