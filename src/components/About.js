@@ -3,12 +3,12 @@ const About = () => (
     id="about"
     className="about_container"
   >
-    {/* <div className="about-image1"> */}
-    <img
-      src="./Images/about-img.png"
-      alt="car"
-    />
-    {/* </div> */}
+    <div className="about-image1">
+      <img
+        src="./Images/about-img.png"
+        alt="car"
+      />
+    </div>
     <div className="about-items">
       <div className="about_content">
         <div className="content_1">
