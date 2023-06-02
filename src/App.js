@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 // import Icon from './components/Icon';
 import About from './components/About';
@@ -7,21 +8,23 @@ import Value from './components/Value';
 import Service from './components/Service';
 import Vision from './components/Vision';
 import Contact from './components/Contact';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
-      {/* <Icon /> */}
-      <About />
-      <Goals />
-      <Mission />
-      <Value />
-      <Service />
-      <Vision />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        {/* <Icon /> */}
+        <About />
+        <Service />
+        <Goals />
+        <Value />
+        <Mission />
+        <Vision />
+        <Contact />
+      </div>
+    </BrowserRouter>
   );
 }
 

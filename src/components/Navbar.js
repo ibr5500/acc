@@ -1,10 +1,37 @@
-// import { NavLink } from 'react-router-dom';
-// import { FaBars } from 'react-icons/fa';
-
-function Navbar() {
-  return (
-    <nav className="nav">
-      {/* <NavLink to="/">
+const Navbar = () => (
+  <nav className="nav">
+    <img
+      className="nav-logo"
+      src="./logo.png"
+      alt="logo"
+    />
+    <ul className="nav-items">
+      <li>
+        <a
+          href="#about"
+          className="nav-link"
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          href="#service"
+          className="nav-link"
+        >
+          Service
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+          className="nav-link"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+    {/* <NavLink to="/">
         <img
           className="rounded-circle recomend-img logo-img"
           src="./assets/logo.png"
@@ -37,8 +64,7 @@ function Navbar() {
           </NavLink>
         </li>
       </ul> */}
-    </nav>
-  );
-}
+  </nav>
+);
 
 export default Navbar;

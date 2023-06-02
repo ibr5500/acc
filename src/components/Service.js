@@ -1,5 +1,8 @@
 const Service = () => (
-  <div className="service-container service-bg-image">
+  <div
+    id="services"
+    className="service-container service-bg-image"
+  >
     <img
       className="service-img"
       src="./Images/se-img.png"

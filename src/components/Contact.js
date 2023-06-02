@@ -1,7 +1,10 @@
 import Icons from './Icons';
 
 const Contact = () => (
-  <div className="contact-contaner">
+  <div
+    id="contact"
+    className="contact-contaner"
+  >
     <div className="contact-content">
       <div className="contact-items">
         <div className="contact-header">
