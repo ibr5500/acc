@@ -5,7 +5,7 @@ const About = () => (
   >
     <div className="about-image1">
       <img
-        src="/images/car_bg.jpg"
+        src="./images/car_bg.jpg"
         alt="car"
       />
     </div>
