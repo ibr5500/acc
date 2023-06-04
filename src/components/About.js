@@ -5,7 +5,7 @@ const About = () => (
   >
     <div className="about-image1">
       <img
-        src="./Images/about-img.png"
+        src="./assets/about-img.png"
         alt="car"
       />
     </div>
@@ -18,7 +18,7 @@ const About = () => (
           </h2>
           <img
             className="about-01"
-            src="./Images/01.png"
+            src="./assets/01.png"
             alt="arrows"
           />
         </div>
@@ -41,12 +41,12 @@ const About = () => (
       </div>
       <img
         className="about-arraows"
-        src="./Images/arrows.png"
+        src="./assets/arrows.png"
         alt="arrows"
       />
       <img
         className="about-arraows-hr"
-        src="./Images/arrows-hr.png"
+        src="./assets/arrows-hr.png"
         alt="arrows"
       />
     </div>

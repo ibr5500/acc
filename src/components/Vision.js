@@ -3,7 +3,7 @@ const Vision = () => (
     <div className="vision-content">
       <img
         className="vision-img"
-        src="./Images/vision.png"
+        src="./assets/vision.png"
         alt="#"
       />
       <div className="vision-desc">

@@ -23,7 +23,7 @@ const Contact = () => (
       </div>
     </div>
     <img
-      src="./Images/contact-bg.png"
+      src="./assets/contact-bg.png"
       alt="#"
       className="contact-img-bg"
     />

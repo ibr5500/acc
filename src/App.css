@@ -272,7 +272,7 @@
 .mission-image {
   width: 100%;
   height: auto;
-  background: url('../public/Images/mission-bg.jpg') no-repeat;
+  background: url('../public/assets/mission-bg.jpg') no-repeat;
   background-size: cover;
   object-fit: fill;
   opacity: 0.9;
@@ -323,7 +323,7 @@
 }
 
 .value-bg-image {
-  background: url('../public/Images/value-bg.jpg') no-repeat;
+  background: url('../public/assets/value-bg.jpg') no-repeat;
   background-size: 70%;
   background-position: right;
   position: relative;
@@ -401,7 +401,7 @@
 }
 
 .service-bg-image {
-  background: url('../public/Images/service-bg.jpg') no-repeat;
+  background: url('../public/assets/service-bg.jpg') no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -520,7 +520,7 @@
 }
 
 .vision-bg-img {
-  background: url('../public/Images/vision-bg.jpg') no-repeat;
+  background: url('../public/assets/vision-bg.jpg') no-repeat;
   background-size: cover;
   background-position: right;
   position: relative;

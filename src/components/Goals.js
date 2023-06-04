@@ -22,12 +22,12 @@ const Goals = () => (
       </div>
       <img
         className="goals-img"
-        src="./Images/goals.png"
+        src="./assets/goals.png"
         alt="goals"
       />
       <div className="goals-footer">
         <img
-          src="./Images/goals-footer.jpg"
+          src="./assets/goals-footer.jpg"
           alt="goals footer"
         />
       </div>

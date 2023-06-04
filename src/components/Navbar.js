@@ -16,7 +16,7 @@ const Navbar = () => (
       </li>
       <li>
         <a
-          href="#service"
+          href="#services"
           className="nav-link"
         >
           Service
@@ -31,39 +31,6 @@ const Navbar = () => (
         </a>
       </li>
     </ul>
-    {/* <NavLink to="/">
-        <img
-          className="rounded-circle recomend-img logo-img"
-          src="./assets/logo.png"
-          alt="Ibrahim Ahmat"
-        />
-      </NavLink>
-      <ul className="nav-list">
-        <li className="nav-item">
-          <NavLink
-            className="navbar-link"
-            to="/about"
-          >
-            About
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink
-            className="navbar-link"
-            to="/projects"
-          >
-            Projects
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink
-            className="navbar-link"
-            to="/contact"
-          >
-            Contact
-          </NavLink>
-        </li>
-      </ul> */}
   </nav>
 );
 
