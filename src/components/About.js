@@ -4,10 +4,24 @@ const About = () => (
     className="about_container"
   >
     <div className="about-image1">
-      <img
-        src="./assets/about-img.png"
+      {/* <img
+        width="100%"
+        src="./assets/optimize.gif"
         alt="car"
-      />
+      /> */}
+      {/* eslint-disable-next-line */}
+      <video
+        width="100%"
+        // height="100%"
+        autoPlay
+        muted
+        loop
+      >
+        <source
+          src="./assets/mercedes00.mp4"
+          type="video/mp4"
+        />
+      </video>
     </div>
     <div className="about-items">
       <div className="about_content">

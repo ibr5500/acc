@@ -2,7 +2,7 @@ const Value = () => (
   <div className="value-container value-bg-image">
     <img
       className="value-img"
-      src="./Images/value.png"
+      src="./assets/value.png"
       alt="#"
     />
     <div className="value-content">
@@ -15,7 +15,7 @@ const Value = () => (
           تكمن قيمة منظمتنا في إعطاء الأولوية للدقة في العمل ، وتعزيز التطوير المهني ، وإرساء مبدأ
           إنتاج العمل الجاد الذي يضمن خدمة احترافية بأعلى معايير التميز والجودة. نعتقد أنه من خلال
           تجسيد هذه القيم ، يمكننا تقديم خدمة استثنائية لعملائنا ، وبناء علاقات دائمة مع شركائنا
-          والمتعاونين معنا ، والمساهمة في نمو ونجاح صناعتنا.
+          والمتعاونين معنا ، والمساهمة في نمو ونجاح المجال.
         </p>
         <p className="desc_en">
           The value of our organization is to prioritize accuracy in work, foster professional
