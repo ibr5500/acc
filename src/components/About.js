@@ -4,15 +4,9 @@ const About = () => (
     className="about_container"
   >
     <div className="about-media">
-      {/* <img
-        width="100%"
-        src="./assets/titled.png"
-        alt="car's bg"
-      /> */}
       {/* eslint-disable-next-line */}
       <video
         width="100%"
-        // height="100%"
         autoPlay
         muted
         loop
@@ -20,11 +14,6 @@ const About = () => (
         <source
           className="desktop-video"
           src="./assets/mercedes.mp4"
-          type="video/mp4"
-        />
-        <source
-          className="ipad-video"
-          src="./assets/mercedes00_AdobeExpress.mp4"
           type="video/mp4"
         />
       </video>
@@ -52,16 +41,6 @@ const About = () => (
           </p>
         </div>
       </div>
-      {/* <img
-        className="about-arraows"
-        src="./assets/arrows.png"
-        alt="arrows"
-      />
-      <img
-        className="about-arraows-hr"
-        src="./assets/arrows-hr.png"
-        alt="arrows"
-      /> */}
     </div>
   </div>
 );
