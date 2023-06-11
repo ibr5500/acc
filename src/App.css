@@ -26,14 +26,13 @@ html { overflow-x: hidden; }
   left: 0;
   padding: 10px 0;
   color: #fff;
-  border-bottom: 0.1px solid #fff;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   z-index: 1;
 }
 
 .nav-logo {
-  width: 50px;
+  width: 80px;
   margin: 0 10px 0 20px;
 }
 
