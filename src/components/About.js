@@ -4,7 +4,7 @@ const About = () => (
     className="about_container"
   >
     <div className="about-media">
-      {/* eslint-disable-next-line */}
+      {/* eslint-disable */}
       <video
         width="100%"
         autoPlay
@@ -17,6 +17,7 @@ const About = () => (
           type="video/mp4"
         />
       </video>
+      {/* eslint-enable */}
     </div>
     <div className="about-items">
       <div className="about_content">

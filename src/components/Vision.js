@@ -3,8 +3,8 @@ const Vision = () => (
     <div className="vision-content">
       <img
         className="vision-img"
-        src="./assets/vision.png"
-        alt="#"
+        src="./assets/vision.WebP"
+        alt="vision"
       />
       <div className="vision-desc">
         <p className="desc_ar">

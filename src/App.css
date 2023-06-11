@@ -61,36 +61,33 @@ html { overflow-x: hidden; }
   font-size: 1.2rem;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-}
-
 .main_logo_container {
   width: 100%;
-  height: auto;
-}
-
-.main_bg {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  padding: 5px 0;
+  height: 100vh;
+  background: url("../public/assets/first_bg.WebP") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .brightness {
   filter: brightness(30%);
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
 .main_logo {
-  position: absolute;
-  width: 400px;
-  height: 450px;
+  width: 40%;
+  min-width: 250px;
+  height: calc(max-width - 50%); /* stylelint-disable-line */
   margin: auto;
-  left: 33%;
-  top: 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .light {
@@ -120,7 +117,7 @@ html { overflow-x: hidden; }
 .about-items {
   position: absolute;
   top: 23%;
-  color: #c1d8f9;
+  color: #fff;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
   animation: show linear 0.8s;
@@ -169,7 +166,7 @@ html { overflow-x: hidden; }
   left: 0;
   width: 40%;
   height: 100%;
-  background: #c1d8f9;
+  background: #fff;
   border-radius: 10px;
   animation: animate 9s linear infinite;
 }
@@ -281,7 +278,7 @@ html { overflow-x: hidden; }
 .mission-image {
   width: 100%;
   height: auto;
-  background: url('../public/assets/mission-bg.jpg') no-repeat;
+  background: url('../public/assets/mission-bg.WebP') no-repeat;
   background-size: cover;
   object-fit: fill;
   opacity: 0.9;
@@ -337,7 +334,7 @@ html { overflow-x: hidden; }
 }
 
 .value-bg-image {
-  background: url('../public/assets/value-bg.jpg') no-repeat;
+  background: url('../public/assets/value-bg.WebP') no-repeat;
   background-size: 70%;
   background-position: right;
   position: relative;
@@ -418,7 +415,7 @@ html { overflow-x: hidden; }
 }
 
 .service-bg-image {
-  background: url('../public/assets/service-bg.jpg') no-repeat;
+  background: url('../public/assets/service-bg.WebP') no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -522,7 +519,7 @@ html { overflow-x: hidden; }
 }
 
 .vision-bg-img {
-  background: url('../public/assets/vision-bg.jpg') no-repeat;
+  background: url('../public/assets/vision-bg.WebP') no-repeat;
   background-size: cover;
   background-position: right;
   position: relative;

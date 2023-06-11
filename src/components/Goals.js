@@ -23,13 +23,13 @@ const Goals = () => (
         </div>
         <img
           className="goals-img"
-          src="./assets/goals.png"
-          alt="goals"
+          src="./assets/goals.WebP"
+          alt="goals_word"
         />
         <foot className="goals-footer">
           <img
-            src="./assets/goals-footer.jpg"
-            alt="goals footer"
+            src="./assets/goals-footer.WebP"
+            alt="goals_image"
           />
         </foot>
       </div>

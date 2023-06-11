@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-// import Icon from './components/Icon';
 import About from './components/About';
 import Goals from './components/Goals';
 import Mission from './components/Mission';
@@ -15,7 +14,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        {/* <Icon /> */}
+        {/* <Loading /> */}
         <About />
         <Service />
         <Goals />

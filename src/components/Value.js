@@ -2,8 +2,8 @@ const Value = () => (
   <div className="value-container value-bg-image">
     <img
       className="value-img"
-      src="./assets/value.png"
-      alt="#"
+      src="./assets/value.WebP"
+      alt="value_word"
     />
     <div className="value-content">
       <div className="value-items">

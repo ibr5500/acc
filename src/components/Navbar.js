@@ -2,8 +2,10 @@ const Navbar = () => (
   <nav className="nav">
     <img
       className="nav-logo"
-      src="./logo.png"
+      src="./logo.WebP"
       alt="logo"
+      width="80px"
+      height="auto"
     />
     <ul className="nav-items">
       <li>

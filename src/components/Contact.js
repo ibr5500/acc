@@ -20,8 +20,8 @@ const Contact = () => (
     </div>
     <foot>
       <img
-        src="./assets/contact-bg.png"
-        alt="#"
+        src="./assets/contact-bg.WebP"
+        alt="contact_img"
         className="contact-img-bg"
       />
     </foot>
