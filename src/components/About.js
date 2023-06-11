@@ -10,6 +10,7 @@ const About = () => (
         autoPlay
         muted
         loop
+        fetchpriority="highest"
       >
         <source
           className="desktop-video"
