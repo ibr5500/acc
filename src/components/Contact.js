@@ -125,8 +125,8 @@ const Contact = () => {
           src="./assets/contact-bg.WebP"
           alt="contact_img"
           className="contact-img-bg"
-          width="auto"
-          height="auto"
+          width="100%"
+          height="100%"
         />
       </foot>
     </div>

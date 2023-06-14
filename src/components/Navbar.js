@@ -5,7 +5,7 @@ const Navbar = () => (
       src="./logo.WebP"
       alt="logo"
       width="80"
-      height="auto"
+      height="100%"
     />
     <ul className="nav-items">
       <li>

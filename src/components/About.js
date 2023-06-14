@@ -7,6 +7,7 @@ const About = () => (
       {/* eslint-disable */}
       <video
         width="100%"
+        height="100%"
         autoPlay
         muted
         loop

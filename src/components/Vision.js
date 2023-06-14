@@ -5,8 +5,8 @@ const Vision = () => (
         className="vision-img"
         src="./assets/vision.WebP"
         alt="vision"
-        width="auto"
-        height="auto"
+        width="100%"
+        height="100%"
       />
       <div className="vision-desc">
         <p className="desc_ar">
