@@ -7,10 +7,10 @@ const Value = () => (
     />
     <div className="value-content">
       <div className="value-items">
-        <h2 className="title value-title">
+        <h1 className="title value-title">
           قيمنا
           <div className="val-line" />
-        </h2>
+        </h1>
         <p className="desc_ar">
           تكمن قيمة منظمتنا في إعطاء الأولوية للدقة في العمل ، وتعزيز التطوير المهني ، وإرساء مبدأ
           إنتاج العمل الجاد الذي يضمن خدمة احترافية بأعلى معايير التميز والجودة. نعتقد أنه من خلال
