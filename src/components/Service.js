@@ -7,6 +7,8 @@ const Service = () => (
       className="service-img"
       src="./assets/se-img.WebP"
       alt="service_bg"
+      width="auto"
+      height="auto"
     />
     <div className="service-content">
       <div className="service-items">

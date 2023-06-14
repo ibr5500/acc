@@ -6,6 +6,8 @@ const Loading = () => (
       <img
         src="/logo.WebP"
         alt="Logo"
+        width="auto"
+        height="auto"
         fetchpriority="high" // eslint-disable-line
         className="light main_logo"
       />

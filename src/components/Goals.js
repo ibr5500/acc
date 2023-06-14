@@ -25,11 +25,15 @@ const Goals = () => (
           className="goals-img"
           src="./assets/goals.WebP"
           alt="goals_word"
+          width="auto"
+          height="auto"
         />
         <foot className="goals-footer">
           <img
             src="./assets/goals-footer.WebP"
             alt="goals_image"
+            width="auto"
+            height="auto"
           />
         </foot>
       </div>

@@ -4,6 +4,8 @@ const Value = () => (
       className="value-img"
       src="./assets/value.WebP"
       alt="value_word"
+      width="auto"
+      height="auto"
     />
     <div className="value-content">
       <div className="value-items">
