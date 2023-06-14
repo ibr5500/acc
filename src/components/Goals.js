@@ -3,7 +3,7 @@ const Goals = () => (
     <div className="goals-container">
       <div className="goals-content">
         <div className="goals-header">
-          <h2 className="title">أهدافنا</h2>
+          <h1 className="title">أهدافنا</h1>
           <div className="goal-line" />
         </div>
         <div className="goals-items">

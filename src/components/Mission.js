@@ -3,10 +3,10 @@ const Mission = () => (
     <div className="mission-content">
       <div className="mission">
         <div className="mission-items">
-          <h2 className="title">
+          <h1 className="title">
             مهمتنا
             <div className="mission-line" />
-          </h2>
+          </h1>
           <p className="desc_ar">
             مهمتنا هي ليس فقط دفع النمو والتميز في مجال التأجير ولكن أيضًا أن نكون الواجهة الأولى
             للإيجارات الفاخرة ، وتقديم خدمة لا مثيل لها وعروض مبتكرة. من خلال تفانينا الدؤوب في

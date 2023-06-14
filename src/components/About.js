@@ -22,10 +22,10 @@ const About = () => (
     </div>
     <div className="about-items">
       <div className="about_content">
-        <h2 className="title">
+        <h1 className="title">
           من نحن
           <div className="about-line" />
-        </h2>
+        </h1>
         <div className="content">
           <p className="desc_ar">
             نلتزم نحن شركة تسارع لتأجير السيارات بتوفير أكثر الوسائل كفاءة وتفوقًا في تأجير أنواع

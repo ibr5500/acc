@@ -10,10 +10,10 @@ const Service = () => (
     />
     <div className="service-content">
       <div className="service-items">
-        <h2 className="title">
+        <h1 className="title">
           خدماتنا
           <div className="line-service" />
-        </h2>
+        </h1>
         <div className="services">
           <ul className="desc_ar rent-service-ar">
             <li>
