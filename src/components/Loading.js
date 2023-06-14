@@ -7,7 +7,7 @@ const Loading = () => (
         src="/logo.WebP"
         alt="Logo"
         width="100%"
-        height="100%"
+        height="60%"
         fetchpriority="high" // eslint-disable-line
         className="light main_logo"
       />
