@@ -11,7 +11,7 @@
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
+  font-display: swap; /* stylelint-disable-line */
   src: url(https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00SWgGEhpvg.woff2) format('woff2');
 }
 
@@ -117,7 +117,7 @@ html { overflow-x: hidden; }
 .about-media > video {
   width: 100%;
   height: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   margin: 0 auto;
   object-fit: cover;
 }
